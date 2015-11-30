@@ -14,6 +14,7 @@ namespace TxFactory.Tests
                 tx.ShouldNotBeNull();
             }
         }
+
         public void Should_throw_when_timeout_exceeded()
         {
             Should.Throw<TransactionAbortedException>(() =>
@@ -29,12 +30,10 @@ namespace TxFactory.Tests
                 }
             });
         }
+
         public void Should_throw_when_options_null()
         {
-            Should.Throw<ArgumentNullException>(() =>
-            {
-                new TransactionScopeFactory().New(null);
-            });
+            Should.Throw<ArgumentNullException>(() => { new TransactionScopeFactory().New(null); });
         }
     }
 }
