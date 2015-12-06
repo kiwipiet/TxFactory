@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxFactory.Core", "TxFactory.Core\TxFactory.Core.csproj", "{575FDA7C-9656-4422-9C25-BDBB265FDBE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxFactory.Core", "src\TxFactory.Core\TxFactory.Core.csproj", "{575FDA7C-9656-4422-9C25-BDBB265FDBE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxFactory.TransactionScope", "TxFactory.TransactionScope\TxFactory.TransactionScope.csproj", "{7528F0F3-055E-4A03-BA66-8FF76F0019A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxFactory.TransactionScope", "src\TxFactory.TransactionScope\TxFactory.TransactionScope.csproj", "{7528F0F3-055E-4A03-BA66-8FF76F0019A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxFactory.Tests", "TxFactory.Tests\TxFactory.Tests.csproj", "{5D6E243A-CE4C-4BAF-B981-D5CF3CA3580D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxFactory.Tests", "src\TxFactory.Tests\TxFactory.Tests.csproj", "{5D6E243A-CE4C-4BAF-B981-D5CF3CA3580D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
